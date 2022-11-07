@@ -16,6 +16,10 @@ public abstract class Pagamento {
 	}
 
 	@Override
-	public abstract String toString();
+	public String toString() {
+		return "Pagamento [tipoPagamento=" + tipoPagamento + ", getTipoPagamento()=" + getTipoPagamento()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
 	
 }
